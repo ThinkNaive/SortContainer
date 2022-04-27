@@ -21,6 +21,12 @@
     <ClInclude Include="pch.h">
       <Filter>Header</Filter>
     </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemsQueue.h">
+      <Filter>Header</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -30,6 +36,12 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="Plugin.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemsQueue.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
